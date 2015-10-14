@@ -85,6 +85,22 @@
     overflow: hidden;
     margin-bottom: 16px;
 }
+.yaz {
+    float: right;
+    margin-top: 10px;
+}
+.yaz ul li {
+    float: left;
+    margin: 0 5px;
+}
+.yaz ul li a {
+    font-size: 16px;
+    font-family: "PTSansRegular";
+    color: #000;
+}
+.yaz ul li a:hover {
+    text-decoration: underline;
+}
 /*menu*/
 .menu_container {
     background-color: #689acc;
