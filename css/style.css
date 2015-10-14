@@ -105,7 +105,7 @@
 .menu_container {
     background-color: #689acc;
     height: 49px;
-    margin-bottom: 16px;
+    margin-bottom: 26px;
 }
 .menu li {
     float: left;
@@ -151,14 +151,15 @@
     padding: 10px;
     position: absolute;
     top: 48px;
-    background-color: #689acc;
+    z-index: 5;
+    background-color: #4587C9;
 }
 .frame li:hover {
     text-decoration: underline;
     box-shadow: none;
     margin: 0px;
     line-height: 24px;
-    background-color: #689ACC;
+    background-color: #4587C9;
 }
 .frame li {
     float: none;
@@ -179,8 +180,8 @@
 
 .content_title {
     font-family: "PTSansBOld";
-    font-size: 16px;
-    color: #4d4d4d;
+    font-size: 18px;
+    color: #313131;
     border-bottom: 1px solid #0054a6;
     padding-bottom: 3px;
     margin-bottom: 11px;
@@ -200,12 +201,16 @@
     float: right;
 }
 .sider_bar_title {
-    font-family: "PTSansRegular";
+    font-family: "PTSansBold";
     color: #313131;
-    font-size: 16px;
+    font-size: 18px;
     border-bottom: 1px solid #0054a6;
     padding-bottom: 3px;
     margin-bottom: 11px;
+}
+.side_bar {
+    margin-bottom: 15px;
+    overflow: hidden;
 }
 .side_bar ul li a{
     font-family: "PTSansItalic";
@@ -284,3 +289,81 @@ footer {
     margin-bottom: 12px;
 }
 /*footer end*/
+/*fancybox*/
+.fancybox {
+    display: inline-block;
+    border: 1px solid #0054A6;
+    width: 193px;
+    height: 172px;
+    border-radius: 9px;
+    margin-right: 27px;
+    overflow: hidden;
+    float: left;
+    box-shadow: 0px 0px 1px 2px #689ACC;
+    margin-bottom: 27px;
+}
+.fancybox:nth-child(3n) {
+    margin-right: 0px;
+}
+/*fancybox end*/
+/*contact*/
+.contact {
+    margin-bottom: 20px;
+}
+.contact_left {
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+}
+.contact_address li {
+    font-family: "PTSansRegular";
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.contact_address li span {
+    font-family: "PTSansBold";
+    margin-right: 3px;
+}
+.contact_item_soc_seti_list li {
+    overflow: hidden;
+    line-height: 28px;
+    display: block;
+    margin-bottom: 3px;
+}
+.contact_item_soc_seti_list li span {
+    display: block;
+    width: 100%;
+}
+.contact_item_soc_seti_list li span:before {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-right: 7px;
+    content: "";
+    width: 32px;
+    height: 26px;
+    float: left;
+}
+.twit span:before {
+    background-image: url(../img/twit.png);
+    background-position: 6px 3px;
+    background-repeat: no-repeat;
+    background-size: 23px;
+}
+.google span:before {
+    background-image: url(../img/google.png);
+    background-position: 6px 3px;
+    background-repeat: no-repeat;
+    background-size: 23px;
+}
+.vk span:before {
+    background-image: url(../img/vk.png);
+    background-position: 6px 3px;
+    background-repeat: no-repeat;
+    background-size: 23px;
+}
+.map {
+    overflow: hidden;
+    width: 100%;
+}
+/*contact end*/
